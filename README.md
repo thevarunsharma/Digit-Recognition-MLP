@@ -11,3 +11,4 @@
   </ul>
  </li>
  </ul>
+<b><i>REQUIREMENTS:</i></b> NumPy, Pandas, SciPy, PIL, Tkinter
