@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 
 import numpy as np
-import pandas as pd
 from scipy.ndimage import imread
 import canvas
 
-params = pd.read_csv('utils/classifierLlayerReg.csv',header=None)
-params = params.as_matrix().ravel()
+params = np.load("utils/weights.npy")
 
 L = 4
 n = [784, 300, 200, 110, 10]
