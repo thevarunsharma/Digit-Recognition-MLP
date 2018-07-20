@@ -15,7 +15,7 @@
  <li><b>canvas.pyc : </b>Python file canvas.py bundled as module file('.pyc') to be imported in main.py.</li>
  <li><b>utils : </b>It contains the following files-
  <ul>
-  <li><i>classifierLlayerReg.csv</i> : This is a csv file containing the weights of trained model.</li>
+  <li><i>weights.npy</i> : Contains the array of weights saved in NumPy (.npy) file format.</li>
   <li><i>temp.jpg</i> : A temporary image file saved as jpeg from from the canvas input.</li>
   </ul>
  </li>
@@ -24,7 +24,6 @@
 <p>(The following packages are needed to be pre-installed in order to run the project)</p>
  <ul>
  <li>NumPy</li>
- <li>Pandas</li>
  <li>SciPy</li>
  <li>PIL</li>
  <li>Tkinter</li>
