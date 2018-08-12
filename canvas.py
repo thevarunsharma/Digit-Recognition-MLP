@@ -39,7 +39,7 @@ class canvasUI(object):
     def clear(self):
         self.win.delete("all")
         self.img = Image.new('RGB', (self.canvas_width, self.canvas_height), 'white')
-        self.draw = ImageDraw.Draw(img)
+        self.draw = ImageDraw.Draw(self.img)
 
     def save(self):
         filename="utils/temp.jpg"
