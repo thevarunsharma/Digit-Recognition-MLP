@@ -21,7 +21,7 @@
  </li>
  </ul>
 <h2>Demo:</h2>
-<img src="demo.gif" width="80%" align="center">
+<img src="demo.gif" width="60%" align="center">
 <h2>Requirements:</h2>
 <p>(The following packages are needed to be pre-installed in order to run the project)</p>
  <ul>
