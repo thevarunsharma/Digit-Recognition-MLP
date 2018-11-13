@@ -1,6 +1,6 @@
 # Handwritten Digit Recognizer
 <h2>Features of the Model</h2>
- <p>A python program which uses a model trained on MNIST dataset for digit recognition. Following are the features of the model :</p>
+ <p>A python program which uses a model trained on MNIST dataset for digit recognition using a Multilayer Perceptron(MLP). Following are the features of the model :</p>
  <ul>
 <li>The model is a Neural Network with 4-Layers consisting of 300, 200, 110 and 10 units for layers 1, 2, 3 and 4 respectively.</li>
 <li>L2-Regularisation has been used to prevent the overfitting of the model.</li>
